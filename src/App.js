@@ -7,15 +7,33 @@ import {
 } from "react-router-dom";
 import HomeScreen from "./Screens/HomeScreen";
 import SearchScreen from "./Screens/SearchScreen";
+import Sidebar from "./Components/Sidebar";
+import ActivityBar from "./Components/ActivityBar";
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={HomeScreen} exact />
-        <Route path="/search" component={SearchScreen} />
-        <Route path="/library" />
-        <Route path="/playlist/:listname" />
+        <div>
+          <main
+            className="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-3 "
+            style={{ height: "93vh" }}
+          >
+            <div className="lg:col-span-1 md:col-span-2 sm:grid-cols-1 sm:h-full h-14  bg-black text-white">
+              <Sidebar />
+            </div>
+            <div className="lg:col-span-10 md:col-span-8 sm:grid-cols-1 sm:h-full h-96">
+              <Route path="/" component={HomeScreen} exact />
+              <Route path="/search" component={SearchScreen} />
+              <Route path="/library" />
+              <Route path="/playlist/:listname" />
+            </div>
+            <div className="lg:col-span-1 md:col-span-2 sm:grid-cols-1 sm:h-full h-14 bg-black text-white">
+              <ActivityBar />
+            </div>
+          </main>
+          <div className="h-14 col-span-12  ">player</div>
+        </div>
       </Switch>
     </Router>
   );

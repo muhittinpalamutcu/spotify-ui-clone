@@ -1,7 +1,8 @@
 import React from "react";
+import Sidebar from "../Components/Sidebar";
 
-const Home = () => {
-  return <div className="text-9xl">Home Screen</div>;
+const HomeScreen = () => {
+  return <div>HomeScreen</div>;
 };
 
-export default Home;
+export default HomeScreen;
