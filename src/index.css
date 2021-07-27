@@ -13,6 +13,10 @@
   @apply h-4 w-4 ml-3;
 }
 
+.header-button {
+  @apply flex items-center bg-black bg-opacity-60 rounded-full cursor-pointer;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

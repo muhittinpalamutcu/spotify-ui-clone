@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "../Components/Sidebar";
 
 const HomeScreen = () => {
-  return <div>HomeScreen</div>;
+  return <div className="">HomeScreen</div>;
 };
 
 export default HomeScreen;

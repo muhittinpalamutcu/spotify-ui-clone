@@ -9,6 +9,9 @@ module.exports = {
       fontSize: {
         xs: ".62rem",
       },
+      backgroundOpacity: {
+        85: "0.85",
+      },
     },
   },
   variants: {

@@ -69,10 +69,10 @@ const Sidebar = () => {
         <p className="ml-4">Create Playlist</p>
       </div>
       <div className="flex text-xs font-body text-gray-300 mt-3 ml-3 items-center">
-        <div className="h-4 w-4 bg-gradient-to-r from-blue-700 via-blue-500 to-blue-200 flex items-center justify-center">
+        <div className="h-4 w-4 bg-gradient-to-br from-blue-700 via-blue-500 to-blue-200 flex items-center justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-3 w-3 text-white"
+            className="h-2.5 w-2.5 text-gray-300"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -86,7 +86,7 @@ const Sidebar = () => {
         <p className="ml-4">Liked Songs</p>
       </div>
 
-      <div className="mt-4 px-3 text-xs font-body text-gray-300">
+      <div className="mt-4 px-3 text-xs font-body text-gray-300 cursor-pointer">
         <div className="border-t border-gray-800"></div>
         <p className="mt-2">Top Songs - USA</p>
         <p className="mt-2">New Vibes 21</p>
@@ -94,10 +94,42 @@ const Sidebar = () => {
         <p className="mt-2">Savage</p>
         <p className="mt-2">Mui</p>
         <p className="mt-2">New Page</p>
-        <p className="mt-2">Coding</p>
+        <div className="flex justify-between items-center mt-2">
+          <p className="">Coding</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-2.5 w-2.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"
+            />
+          </svg>
+        </div>
         <p className="mt-2">blues</p>
         <p className="mt-2">Debug 🐥</p>
-        <p className="mt-2">Мухи</p>
+        <div className="mt-2 flex justify-between items-center">
+          <p>Мухи</p>
+          <div className="h-2.5 w-2.5 border border-gray-400 rounded-full  bg-gray-400 flex justify-center items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-1.5 w-1.5 text-gray-900 "
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
         <p className="mt-2">#</p>
         <p className="mt-2">lofi beats</p>
       </div>
