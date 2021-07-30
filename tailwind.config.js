@@ -8,6 +8,7 @@ module.exports = {
       },
       fontSize: {
         xs: ".62rem",
+        tiny: ".75rem",
       },
       backgroundOpacity: {
         85: "0.85",
