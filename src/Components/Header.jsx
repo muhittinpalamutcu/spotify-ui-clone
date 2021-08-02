@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="h-10  flex justify-between items-center">
+    <div className="h-10 flex justify-between items-center">
       <div className="ml-5 flex">
         <div className="header-button">
           <svg
