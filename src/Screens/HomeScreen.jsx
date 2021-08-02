@@ -132,7 +132,7 @@ const HomeScreen = () => {
           </div>
           <div className="bg-gray-600 bg-opacity-10 w-1/6 flex-none font-body p-5 hover:bg-gray-500 hover:bg-opacity-20">
             <img
-              className="w-28 h-24 rounded-full"
+              className="w-28 h-28 object-cover rounded-full"
               src="./images/Mgk.jpg"
               alt="artist-img"
             />

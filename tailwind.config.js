@@ -7,6 +7,7 @@ module.exports = {
         body: ["Roboto"],
       },
       fontSize: {
+        mini: "0.5rem",
         xs: ".62rem",
         tiny: ".75rem",
       },
