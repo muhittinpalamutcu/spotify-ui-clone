@@ -54,22 +54,22 @@ const HomeScreen = () => {
         <p className="text-xs text-gray-400">
           Get better recommendations the more you listen.
         </p>
-        <div className="text-xs mt-6 ml-1 flex gap-5 overflow-x-auto">
-          <div className="flex-none bg-gray-600 w-1/6 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
+        <div className="text-xs mt-6 ml-1 flex gap-5 overflow-x-auto ">
+          <div className="flex-shrink-0  bg-gray-600 w-40 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
             <img src="./images/card11.png" alt="card-img" />
             <p className="text-white mt-3"> Release Radar</p>
             <p className="text-gray-300">
               Catch all the latest music from artists you follow...
             </p>
           </div>
-          <div className="flex-none bg-gray-600 w-1/6 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
+          <div className="flex-shrink-0 bg-gray-600 w-40 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
             <img src="./images/card13.png" alt="card-img" />
             <p className="text-white mt-3"> Daily Mix 1</p>
             <p className="text-gray-300">
               Catch all the latest music from artists you follow...
             </p>
           </div>
-          <div className="flex-none bg-gray-600 w-1/6 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
+          <div className="flex-shrink-0 bg-gray-600 w-40 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
             <img src="./images/card9.png" alt="card-img" />
             <p className="text-white mt-3"> Daily Mix 2</p>
             <p className="text-gray-300">
@@ -86,19 +86,19 @@ const HomeScreen = () => {
           Hear a little bit of everything you love.
         </p>
         <div className="text-xs mt-6 ml-1 flex gap-5 overflow-x-auto">
-          <div className="flex-none bg-gray-600 w-1/6 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
+          <div className="flex-shrink-0 bg-gray-600 w-40 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
             <img src="./images/card16.png" alt="card-img" />
             <p className="text-white mt-3">tear drop</p>
             <p className="text-gray-300">new music by MASN</p>
           </div>
-          <div className="flex-none bg-gray-600 w-1/6 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
+          <div className="flex-shrink-0 bg-gray-600 w-40 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
             <img src="./images/card17.png" alt="card-img" />
             <p className="text-white mt-3"> Mega Hit Mix</p>
             <p className="text-gray-300">
               A mega mix 75 favorites from the last...
             </p>
           </div>
-          <div className="flex-none bg-gray-600 w-1/6 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
+          <div className="flex-shrink-0 bg-gray-600 w-40 bg-opacity-10 p-3 hover:bg-gray-500 hover:bg-opacity-20">
             <img src="./images/card18.png" alt="card-img" />
             <p className="text-white mt-3">Sad Bops</p>
             <p className="text-gray-300">For all of us dancing on our own.</p>
@@ -110,7 +110,7 @@ const HomeScreen = () => {
           Your favorite artists
         </p>
         <div className="flex mt-5 gap-5 overflow-x-auto ml-1">
-          <div className="bg-gray-600 bg-opacity-10 w-1/6 flex-none font-body p-5 hover:bg-gray-500 hover:bg-opacity-20">
+          <div className=" bg-gray-600 bg-opacity-10 w-40 flex-none font-body p-5 hover:bg-gray-500 hover:bg-opacity-20">
             <img
               className="w-28  rounded-full"
               src="./images/LilPeep.jpg"
@@ -119,7 +119,7 @@ const HomeScreen = () => {
             <p className="text-white text-tiny font-semibold mt-3">Lil Peep</p>
             <p className="text-gray-400 text-xs mt-1">Artist</p>
           </div>
-          <div className="bg-gray-600 bg-opacity-10  w-1/6 flex-none font-body p-5 hover:bg-gray-500 hover:bg-opacity-20">
+          <div className="flex-shrink-0 bg-gray-600 bg-opacity-10  w-40 font-body p-5 hover:bg-gray-500 hover:bg-opacity-20">
             <img
               className="w-28  rounded-full"
               src="./images/Brennan.png"
@@ -130,7 +130,7 @@ const HomeScreen = () => {
             </p>
             <p className="text-gray-400 text-xs mt-1">Artist</p>
           </div>
-          <div className="bg-gray-600 bg-opacity-10 w-1/6 flex-none font-body p-5 hover:bg-gray-500 hover:bg-opacity-20">
+          <div className="flex-shrink-0 bg-gray-600 bg-opacity-10 w-40 font-body p-5 hover:bg-gray-500 hover:bg-opacity-20">
             <img
               className="w-28 h-28 object-cover rounded-full"
               src="./images/Mgk.jpg"

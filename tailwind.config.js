@@ -14,6 +14,9 @@ module.exports = {
       backgroundOpacity: {
         85: "0.85",
       },
+      rotate: {
+        35: "35deg",
+      },
     },
   },
   variants: {

@@ -22,7 +22,6 @@ const App = () => {
         <div className="lg:col-span-1 md:col-span-2 sm:grid-cols-1 sm:h-full h-14  bg-black text-white">
           <Sidebar />
         </div>
-
         <div className="lg:col-span-9 md:col-span-8 sm:grid-cols-1 sm:h-full h-96 overflow-x-auto">
           <Header />
           <Route path="/" component={HomeScreen} exact />
@@ -30,7 +29,7 @@ const App = () => {
           <Route path="/library" />
           <Route path="/playlist/:listname" />
         </div>
-        <div className="lg:col-span-2 md:col-span-2 sm:grid-cols-1 sm:h-full h-14 bg-black text-white">
+        <div className="lg:col-span-2 md:col-span-2 sm:grid-cols-1 sm:h-full h-14 bg-black text-white resize-x overflow-auto min-w-min">
           <ActivityBar />
         </div>
       </main>

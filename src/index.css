@@ -25,6 +25,30 @@
   @apply text-white font-body text-tiny ml-5;
 }
 
+.searches-card {
+  @apply font-body flex-shrink-0 bg-gray-600 w-36 h-48 bg-opacity-10 p-3 transition duration-500 hover:bg-gray-500 hover:bg-opacity-20 rounded-sm;
+}
+
+.searched-description {
+  @apply text-tiny font-semibold text-gray-300 mt-2;
+}
+
+.searched-artist {
+  @apply text-mini text-gray-400;
+}
+
+.genres-horizontal-area::-webkit-scrollbar {
+  display: none;
+}
+
+.browse-all-card {
+  @apply w-32 h-32 rounded-md  flex-shrink-0 relative overflow-hidden;
+}
+
+.browse-all-img {
+  @apply w-16 h-16 absolute -bottom-5 right-0 transform rotate-35;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
