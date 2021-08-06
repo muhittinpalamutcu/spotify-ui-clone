@@ -49,6 +49,18 @@
   @apply w-16 h-16 absolute -bottom-5 right-0 transform rotate-35;
 }
 
+.library-card {
+  @apply h-48 w-32 bg-gray-600 bg-opacity-10 p-2 transition duration-500 hover:bg-gray-200 hover:bg-opacity-20;
+}
+
+.library-card-name {
+  @apply text-midi font-body text-gray-100 mt-2;
+}
+
+.library-card-description {
+  @apply text-xs font-body text-gray-300;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }

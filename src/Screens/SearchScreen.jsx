@@ -1,6 +1,6 @@
 import React from "react";
 
-const SearchScreen = () => {
+const SearchScreen = ({ history }) => {
   return (
     <div>
       <p className="text-white font-body font-semibold text-sm ml-5">

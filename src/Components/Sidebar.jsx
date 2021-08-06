@@ -1,12 +1,24 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
+  const location = useLocation();
+
+  const style =
+    "flex text-white text-xs items-center font-body bg-gray-400 bg-opacity-25 h-7 rounded cursor-pointer";
+
+  const style2 =
+    "flex text-white text-xs mt-3 items-center font-body h-7 rounded cursor-pointer";
+
+  useEffect(() => {
+    console.log(location.pathname);
+  }, [location]);
+
   return (
     <div>
       <Link to="/">
         <div className="p-1">
-          <div className="flex text-white text-xs mt-3 items-center font-body bg-gray-400 bg-opacity-25 h-7 rounded cursor-pointer">
+          <div className={location.pathname === "/" ? style + " mt-3" : style2}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="sidebar-icon text-white"
@@ -26,36 +38,48 @@ const Sidebar = () => {
         </div>
       </Link>
       <Link to="/search">
-        <div className="sidebar-card p-1">
-          {" "}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="sidebar-icon text-gray-400"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+        <div className="p-1">
+          <div
+            className={location.pathname === "/search" ? style : "sidebar-card"}
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            />
-          </svg>
-          <p className="ml-3">Search</p>
+            {" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="sidebar-icon text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+            <p className="ml-3">Search</p>
+          </div>
         </div>
       </Link>
-      <div className="sidebar-card p-1">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="sidebar-icon text-gray-400"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path d="M2 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V4zM8 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1H9a1 1 0 01-1-1V4zM15 3a1 1 0 00-1 1v12a1 1 0 001 1h2a1 1 0 001-1V4a1 1 0 00-1-1h-2z" />
-        </svg>
-        <p className="ml-3">Your Library</p>
-      </div>
+      <Link to="/library">
+        <div className="p-1">
+          <div
+            className={
+              location.pathname === "/library" ? style : "sidebar-card"
+            }
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="sidebar-icon text-gray-400"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path d="M2 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V4zM8 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1H9a1 1 0 01-1-1V4zM15 3a1 1 0 00-1 1v12a1 1 0 001 1h2a1 1 0 001-1V4a1 1 0 00-1-1h-2z" />
+            </svg>
+            <p className="ml-3">Your Library</p>
+          </div>
+        </div>
+      </Link>
 
       <div className="flex text-xs font-body text-gray-300 mt-6 ml-3 items-center">
         <div className="h-4 w-4 bg-gray-300  items-center justify-center flex">

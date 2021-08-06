@@ -10,6 +10,7 @@ module.exports = {
         mini: "0.5rem",
         xs: ".62rem",
         tiny: ".75rem",
+        midi: ".80rem",
       },
       backgroundOpacity: {
         85: "0.85",
