@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const Sidebar = () => {
+const Sidebar = ({ history }) => {
   const location = useLocation();
 
   const style =
@@ -161,7 +161,9 @@ const Sidebar = () => {
           </div>
         </div>
         <p className="mt-2">#</p>
-        <p className="mt-2">lofi beats</p>
+        <Link to="/playlist/lofibeats">
+          <p className="mt-2">lofi beats</p>
+        </Link>
       </div>
     </div>
   );

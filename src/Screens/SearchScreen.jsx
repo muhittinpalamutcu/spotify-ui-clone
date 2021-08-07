@@ -10,7 +10,7 @@ const SearchScreen = ({ history }) => {
         <div className="searches-card">
           <img
             className="w-32 h-28"
-            src="./images/recent1.jpeg"
+            src="/images/recent1.jpeg"
             alt="recent-img"
           />
           <p className="searched-description">STAY(with Justin ...</p>
@@ -19,7 +19,7 @@ const SearchScreen = ({ history }) => {
         <div className="searches-card">
           <img
             className="w-32 h-28"
-            src="./images/recent2.jpeg"
+            src="/images/recent2.jpeg"
             alt="recent-img"
           />
           <p className="searched-description">Hands To Myself</p>
@@ -28,7 +28,7 @@ const SearchScreen = ({ history }) => {
         <div className="searches-card">
           <img
             className="w-32 h-28"
-            src="./images/recent3.jpeg"
+            src="/images/recent3.jpeg"
             alt="recent-img"
           />
           <p className="searched-description">Arcade</p>
@@ -37,7 +37,7 @@ const SearchScreen = ({ history }) => {
         <div className="searches-card">
           <img
             className="w-32 h-28"
-            src="./images/recent4.jpeg"
+            src="/images/recent4.jpeg"
             alt="recent-img"
           />
           <p className="searched-description">One Way(feat T-Pai..</p>
@@ -46,7 +46,7 @@ const SearchScreen = ({ history }) => {
         <div className="searches-card">
           <img
             className="w-32 h-28"
-            src="./images/recent5.jpeg"
+            src="/images/recent5.jpeg"
             alt="recent-img"
           />
           <p className="searched-description">Emily In Paris Netfl..</p>
@@ -64,8 +64,8 @@ const SearchScreen = ({ history }) => {
                 Hip Hop
               </p>
               <img
-                className=" absolute -bottom-5 right-0 w-20 h-20 transform rotate-35"
-                src="./images/genres1.jpeg"
+                className="absolute -bottom-5 right-0 w-20 h-20 transform rotate-35"
+                src="/images/genres1.jpeg"
                 alt="genres-img"
               />
             </div>
@@ -75,7 +75,7 @@ const SearchScreen = ({ history }) => {
               </p>
               <img
                 className=" absolute -bottom-5 right-0 w-20 h-20 transform rotate-35"
-                src="./images/genres2.jpeg"
+                src="/images/genres2.jpeg"
                 alt="genres-img"
               />
             </div>
@@ -85,7 +85,7 @@ const SearchScreen = ({ history }) => {
               </p>
               <img
                 className=" absolute -bottom-5 right-0 w-20 h-20 transform rotate-35"
-                src="./images/genres3.jpeg"
+                src="/images/genres3.jpeg"
                 alt="genres-img"
               />
             </div>
@@ -95,7 +95,7 @@ const SearchScreen = ({ history }) => {
               </p>
               <img
                 className=" absolute -bottom-5 right-0 w-20 h-20 transform rotate-35"
-                src="./images/genres4.jpeg"
+                src="/images/genres4.jpeg"
                 alt="genres-img"
               />
             </div>
@@ -112,7 +112,7 @@ const SearchScreen = ({ history }) => {
           </p>
           <img
             className="browse-all-img"
-            src="./images/browse1.jpeg"
+            src="/images/browse1.jpeg"
             alt="browse-img"
           />
         </div>
@@ -122,7 +122,7 @@ const SearchScreen = ({ history }) => {
           </p>
           <img
             className="browse-all-img"
-            src="./images/browse2.jpeg"
+            src="/images/browse2.jpeg"
             alt="browse-img"
           />
         </div>
@@ -130,7 +130,7 @@ const SearchScreen = ({ history }) => {
           <p className="text-white font-body font-semibold mt-2 ml-2">Charts</p>
           <img
             className="browse-all-img"
-            src="./images/browse3.jpeg"
+            src="/images/browse3.jpeg"
             alt="browse-img"
           />
         </div>
@@ -140,27 +140,27 @@ const SearchScreen = ({ history }) => {
           </p>
           <img
             className="browse-all-img"
-            src="./images/browse4.jpg"
+            src="/images/browse4.jpg"
             alt="browse-img"
           />
         </div>
-        <div className=" bg-blue-900 browse-all-card">
+        <div className="bg-blue-900 browse-all-card">
           <p className="text-white font-body font-semibold mt-2 ml-2">
             Discover
           </p>
           <img
             className="browse-all-img"
-            src="./images/browse5.jpeg"
+            src="/images/browse5.jpeg"
             alt="browse-img"
           />
         </div>
-        <div className=" bg-yellow-300 browse-all-card">
+        <div className="bg-yellow-300 browse-all-card">
           <p className="text-white font-body font-semibold mt-2 ml-2">
             Concerts
           </p>
           <img
             className="browse-all-img"
-            src="./images/browse6.jpeg"
+            src="/images/browse6.jpeg"
             alt="browse-img"
           />
         </div>
@@ -168,7 +168,7 @@ const SearchScreen = ({ history }) => {
           <p className="text-white font-body font-semibold mt-2 ml-2">Summer</p>
           <img
             className="browse-all-img"
-            src="./images/browse7.jpeg"
+            src="/images/browse7.jpeg"
             alt="browse-img"
           />
         </div>
@@ -178,7 +178,7 @@ const SearchScreen = ({ history }) => {
           </p>
           <img
             className="browse-all-img"
-            src="./images/browse8.jpeg"
+            src="/images/browse8.jpeg"
             alt="browse-img"
           />
         </div>
@@ -186,7 +186,7 @@ const SearchScreen = ({ history }) => {
           <p className="text-white font-body font-semibold mt-2 ml-2">EQUAL</p>
           <img
             className="browse-all-img"
-            src="./images/browse9.jpeg"
+            src="/images/browse9.jpeg"
             alt="browse-img"
           />
         </div>
@@ -204,7 +204,7 @@ const SearchScreen = ({ history }) => {
           </p>
           <img
             className="browse-all-img"
-            src="./images/browse11.jpeg"
+            src="/images/browse11.jpeg"
             alt="browse-img"
           />
         </div>
@@ -214,7 +214,7 @@ const SearchScreen = ({ history }) => {
           </p>
           <img
             className="browse-all-img"
-            src="./images/browse12.jpeg"
+            src="/images/browse12.jpeg"
             alt="browse-img"
           />
         </div>
@@ -224,7 +224,7 @@ const SearchScreen = ({ history }) => {
           </p>
           <img
             className="browse-all-img"
-            src="./images/browse13.jpeg"
+            src="/images/browse13.jpeg"
             alt="browse-img"
           />
         </div>
@@ -232,7 +232,7 @@ const SearchScreen = ({ history }) => {
           <p className="text-white font-body font-semibold mt-2 ml-2">Chill</p>
           <img
             className="browse-all-img"
-            src="./images/browse14.jpeg"
+            src="/images/browse14.jpeg"
             alt="browse-img"
           />
         </div>
@@ -240,7 +240,7 @@ const SearchScreen = ({ history }) => {
           <p className="text-white font-body font-semibold mt-2 ml-2">Focus</p>
           <img
             className="browse-all-img"
-            src="./images/browse15.jpeg"
+            src="/images/browse15.jpeg"
             alt="browse-img"
           />
         </div>

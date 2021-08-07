@@ -4,7 +4,7 @@ const Player = () => {
   return (
     <div className="flex justify-between items-center">
       <div className="ml-3 flex justify-center items-center">
-        <img className="w-8 h-8" src="./images/player-pic.png" alt="song-img" />
+        <img className="w-8 h-8" src="/images/player-pic.png" alt="song-img" />
         <div className="ml-3 p-0">
           <p className="text-gray-300 font-body font-semibold text-xs">
             Genie In a Bottle

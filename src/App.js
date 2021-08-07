@@ -13,6 +13,7 @@ import ActivityBar from "./Components/ActivityBar";
 import Header from "./Components/Header";
 import Player from "./Components/Player";
 import LibraryScreen from "./Screens/LibraryScreen";
+import PlayListScreen from "./Screens/PlayListScreen";
 
 const App = () => {
   return (
@@ -26,10 +27,10 @@ const App = () => {
         </div>
         <div className="lg:col-span-9 md:col-span-8 sm:grid-cols-1 sm:h-full h-96 overflow-x-auto">
           <Header />
-          <Route path="/" component={HomeScreen} exact />
           <Route path="/search" component={SearchScreen} />
           <Route path="/library" component={LibraryScreen} />
-          <Route path="/playlist/:listname" />
+          <Route path="/playlist/:name" component={PlayListScreen} />
+          <Route path="/" component={HomeScreen} exact />
         </div>
         <div className="lg:col-span-2 md:col-span-2 sm:grid-cols-1 sm:h-full h-14 bg-black text-white resize-x overflow-auto min-w-min">
           <ActivityBar />

@@ -39,7 +39,7 @@ const Header = () => {
       </div>
       <div className="text-gray-300 mr-6 rounded-3xl bg-black flex justify-center items-center text-xs font-body">
         <img
-          src="./images/me.jpg"
+          src="/images/me.jpg"
           alt="profile-pic"
           className="h-5 w-5 rounded-3xl"
         />

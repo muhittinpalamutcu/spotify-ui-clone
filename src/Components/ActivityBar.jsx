@@ -21,7 +21,7 @@ const ActivityBar = () => {
       <div className=" flex items-start font-body text-gray-300 mt-5 ml-2 ">
         <div className="w-8">
           <img
-            src="./images/me.jpg"
+            src="/images/me.jpg"
             alt="friend-img"
             className="w-full h-8 object-cover rounded-full"
           />
@@ -48,7 +48,7 @@ const ActivityBar = () => {
       <div className=" flex items-start font-body text-gray-300 mt-5 ml-2 ">
         <div className="w-8">
           <img
-            src="./images/me2.jpg"
+            src="/images/me2.jpg"
             alt="friend-img"
             className="w-full h-8 object-cover rounded-full"
           />
