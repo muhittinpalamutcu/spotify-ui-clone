@@ -2,7 +2,7 @@ import React from "react";
 
 const PlayListScreen = () => {
   return (
-    <div className="bg-black bg-opacity-10 bg-gradient-to-b from-yellow-500 via-transparent to-transparent h-full">
+    <div className="bg-gradient-to-b from-yellow-500 via-transparent to-transparent h-full">
       <div className="bg-yellow-500 bg-opacity-90 h-56 flex items-center">
         <div className="ml-5 mt-5 flex">
           <img
@@ -245,6 +245,214 @@ const PlayListScreen = () => {
         <p className="text-xs text-gray-300">
           Based on what's in this playlist
         </p>
+      </div>
+      <div className="p-2">
+        <table className="table-auto text-gray-400 text-mini font-body">
+          <thead>
+            <tr className="text-left border-gray-800">
+              <th className="w-7/12 pl-2"></th>
+              <th className="w-5/12 ..."></th>
+              <th className="w-2/12 text-right pr-10"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="h-12 hover:bg-gray-400 hover:bg-opacity-10">
+              <td className="ml-5 h-12 flex items-center">
+                <img
+                  className="w-6 h-6"
+                  src="/images/song1.jpeg"
+                  alt="song-img"
+                />
+                <div className="ml-3">
+                  <p className="text-xs text-gray-200 font-semibold">
+                    Lonely in London
+                  </p>
+                  <p>Slumberville</p>
+                </div>
+              </td>
+              <td className="text-xs"> Lonely in London</td>
+              <td className="text-xs text-right pr-10">
+                <div className="border rounded-xl py-1 px-5 border-gray-500 hover:border-gray-200 hover:scale-110 transform transition duration-500">
+                  <p className="text-white font-body text-mini font-semibold">
+                    ADD
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr className="h-12 hover:bg-gray-400 hover:bg-opacity-10">
+              <td className="ml-5 h-12 flex items-center">
+                <img
+                  className="w-6 h-6"
+                  src="/images/song2.jpeg"
+                  alt="song-img"
+                />
+                <div className="ml-3">
+                  <p className="text-xs text-gray-200 font-semibold">Roots</p>
+                  <p>Kupla</p>
+                </div>
+              </td>
+              <td className="text-xs">Kingdom in Blue</td>
+              <td className="text-xs text-right pr-10">
+                {" "}
+                <div className="border rounded-xl py-1 px-5 border-gray-500 hover:border-gray-200 hover:scale-110 transform transition duration-500">
+                  <p className="text-white font-body text-mini font-semibold">
+                    ADD
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr className="h-12 hover:bg-gray-400 hover:bg-opacity-10">
+              <td className="ml-5 h-12 flex items-center">
+                <img
+                  className="w-6 h-6"
+                  src="/images/song3.jpeg"
+                  alt="song-img"
+                />
+                <div className="ml-3">
+                  <p className="text-xs text-gray-200 font-semibold">
+                    Unfolding
+                  </p>
+                  <p>Hakaisu</p>
+                </div>
+              </td>
+              <td className="text-xs">Unfolding</td>
+              <td className="text-xs text-right pr-10">
+                {" "}
+                <div className="border rounded-xl py-1 px-5 border-gray-500 hover:border-gray-200 hover:scale-110 transform transition duration-500">
+                  <p className="text-white font-body text-mini font-semibold">
+                    ADD
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr className="h-12 hover:bg-gray-400 hover:bg-opacity-10">
+              <td className="ml-5 h-12 flex items-center">
+                <img
+                  className="w-6 h-6"
+                  src="/images/song4.jpeg"
+                  alt="song-img"
+                />
+                <div className="ml-3">
+                  <p className="text-xs text-gray-200 font-semibold">
+                    I Thought it would be Different this Time
+                  </p>
+                  <p>Fdiuxx</p>
+                </div>
+              </td>
+              <td className="text-xs">
+                {" "}
+                I Thought it would be Different this Time
+              </td>
+              <td className="text-xs text-right pr-10">
+                {" "}
+                <div className="border rounded-xl py-1 px-5 border-gray-500 hover:border-gray-200 hover:scale-110 transform transition duration-500">
+                  <p className="text-white font-body text-mini font-semibold">
+                    ADD
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr className="h-12 hover:bg-gray-400 hover:bg-opacity-10">
+              <td className="ml-5 h-12 flex items-center">
+                <img
+                  className="w-6 h-6"
+                  src="/images/song5.jpeg"
+                  alt="song-img"
+                />
+                <div className="ml-3">
+                  <p className="text-xs text-gray-200 font-semibold">
+                    it was love
+                  </p>
+                  <p>nrg, Pueblo Vista</p>
+                </div>
+              </td>
+              <td className="text-xs"> it was love</td>
+              <td className="text-xs text-right pr-10">
+                {" "}
+                <div className="border rounded-xl py-1 px-5 border-gray-500 hover:border-gray-200 hover:scale-110 transform transition duration-500">
+                  <p className="text-white font-body text-mini font-semibold">
+                    ADD
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr className="h-12 hover:bg-gray-400 hover:bg-opacity-10">
+              <td className="ml-5 h-12 flex items-center">
+                <img
+                  className="w-6 h-6"
+                  src="/images/song6.jpeg"
+                  alt="song-img"
+                />
+                <div className="ml-3">
+                  <p className="text-xs text-gray-200 font-semibold">
+                    Tiger Park
+                  </p>
+                  <p>Lo'fi Boy, BVG</p>
+                </div>
+              </td>
+              <td className="text-xs">Tiger Park</td>
+              <td className="text-xs text-right pr-10">
+                {" "}
+                <div className="border rounded-xl py-1 px-5 border-gray-500 hover:border-gray-200 hover:scale-110 transform transition duration-500">
+                  <p className="text-white font-body text-mini font-semibold">
+                    ADD
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr className="h-12 hover:bg-gray-400 hover:bg-opacity-10">
+              <td className="ml-5 h-12 flex items-center">
+                <img
+                  className="w-6 h-6"
+                  src="/images/song7.jpeg"
+                  alt="song-img"
+                />
+                <div className="ml-3">
+                  <p className="text-xs text-gray-200 font-semibold">
+                    sleep static
+                  </p>
+                  <p>luvwn</p>
+                </div>
+              </td>
+              <td className="text-xs">sleep static</td>
+              <td className="text-xs text-right pr-10">
+                {" "}
+                <div className="border rounded-xl py-1 px-5 border-gray-500 hover:border-gray-200 hover:scale-110 transform transition duration-500">
+                  <p className="text-white font-body text-mini font-semibold">
+                    ADD
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr className="h-12 hover:bg-gray-400 hover:bg-opacity-10">
+              <td className="ml-5 h-12 flex items-center">
+                <img
+                  className="w-6 h-6"
+                  src="/images/song8.jpeg"
+                  alt="song-img"
+                />
+                <div className="ml-3">
+                  <p className="text-xs text-gray-200 font-semibold">Tracy</p>
+                  <p>Pontiac Puma</p>
+                </div>
+              </td>
+              <td className="text-xs">Tracy</td>
+              <td className="text-xs text-right pr-10">
+                {" "}
+                <div className="border rounded-xl py-1 px-5 border-gray-500 hover:border-gray-200 hover:scale-110 transform transition duration-500">
+                  <p className="text-white font-body text-mini font-semibold">
+                    ADD
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div className="px-12 mr-1 mt-3 flex justify-end">
+          <p className="text-mini font-body font-semibold uppercase mb-10 text-white hover:scale-110 transform transition duration-75 cursor-pointer">
+            refresh
+          </p>
+        </div>
       </div>
     </div>
   );
